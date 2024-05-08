@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: domain
+  data:
+    mongodb:
+      uri: mongodb+srv://ianstreetfut:D45gJElbhYvNYI6@cluster0.tkkjeyu.mongodb.net/ticket_requests?retryWrites=true&w=majority
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org:
+      springframework: INFO
+    com:
+      tuempresa: DEBUG

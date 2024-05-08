@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: orchestrator
+server:
+  port: 8081
